@@ -53,7 +53,7 @@
   .\WordUtilityAddIn.sln /t:Rebuild /p:Configuration=Debug /m
 ```
 
-项目包含一个仅供本机开发的临时自签名证书 `WordUtilityAddIn_TemporaryKey.pfx`，用于生成 VSTO/ClickOnce 清单。正式发布前必须替换为组织认可的代码签名证书，并保护其私钥；不要将生产证书和密码提交到源码仓库。
+项目在本机开发时使用临时自签名证书 `WordUtilityAddIn_TemporaryKey.pfx` 生成 VSTO/ClickOnce 清单；公开仓库不包含此证书，需要在本机创建。正式发布前必须替换为组织认可的代码签名证书，并保护其私钥；不要将生产证书和密码提交到源码仓库。
 
 ## 调试
 
@@ -96,8 +96,8 @@
 
 ```powershell
 .\WordUtilityAddIn.Verification\bin\Debug\WordUtilityAddIn.Verification.exe `
-  'D:\Desktop\21天读书班阅读书籍-注音.docx' `
-  '.\TestOutput\21天读书班阅读书籍-注音-9磅-验证副本.docx' `
+  'C:\Documents\sample-ruby.docx' `
+  '.\TestOutput\sample-ruby-verified.docx' `
   9
 ```
 
