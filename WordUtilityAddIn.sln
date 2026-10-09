@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11201.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordUtilityAddIn", "WordUtilityAddIn\WordUtilityAddIn.csproj", "{8CC329EC-7638-4EF2-8875-1A542B5AE3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordUtilityAddIn.Core", "WordUtilityAddIn.Core\WordUtilityAddIn.Core.csproj", "{2AE20E28-5AF4-4E20-BF41-1A754DB59532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordUtilityAddIn.Verification", "WordUtilityAddIn.Verification\WordUtilityAddIn.Verification.csproj", "{8F1E5FD6-42D0-41DF-AE16-6632B369D6CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC329EC-7638-4EF2-8875-1A542B5AE3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC329EC-7638-4EF2-8875-1A542B5AE3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC329EC-7638-4EF2-8875-1A542B5AE3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC329EC-7638-4EF2-8875-1A542B5AE3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE20E28-5AF4-4E20-BF41-1A754DB59532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE20E28-5AF4-4E20-BF41-1A754DB59532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE20E28-5AF4-4E20-BF41-1A754DB59532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE20E28-5AF4-4E20-BF41-1A754DB59532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1E5FD6-42D0-41DF-AE16-6632B369D6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1E5FD6-42D0-41DF-AE16-6632B369D6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1E5FD6-42D0-41DF-AE16-6632B369D6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1E5FD6-42D0-41DF-AE16-6632B369D6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
